@@ -18,7 +18,7 @@ export default function MainContent({
           }}
         >
           <div className="flex flex-col justify-between h-full">
-            <div className="flex gap-3 justify-center ">
+            <div className="flex gap-3  ">
               <img src={item.logo} alt={item.name} className="w-10 h-10" />
               <div className="flex flex-col gap-0.5 mt-[-2px]">
                 <h3
@@ -33,7 +33,7 @@ export default function MainContent({
                 </h3>
                 <p
                   className="text-[16px] sm:text-[13px] font-normal
-                  leading-4"
+                  leading-6"
                   style={{
                     color: isDarkMode
                       ? "hsl(0, 0%, 78%)"
